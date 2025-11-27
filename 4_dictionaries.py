@@ -23,5 +23,7 @@ capitals = {
 
 def get_capital(country, capitals_dict):
     return capitals_dict.get(country, "Unknown")
+
 user_country = input("Enter a country name: ")
+
 print(get_capital(user_country, capitals))
